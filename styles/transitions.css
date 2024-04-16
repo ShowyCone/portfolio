@@ -1,0 +1,20 @@
+.goLeftInfo {
+  transform: translateX(-200px);
+}
+
+.showLeft,
+.showRight {
+  transform: translate(0);
+}
+
+.hiddenTop {
+  transform: translateY(-700px);
+}
+
+.hiddenBottom {
+  transform: translateY(700px);
+}
+
+.hiddenRight {
+  transform: translateX(700px);
+}
