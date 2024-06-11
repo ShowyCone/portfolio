@@ -31,8 +31,10 @@ s {
 .tech-stack-list,
 .explain1,
 .project1-first-screen,
+.project2-first-screen,
 .explain2-container,
-.project1-left {
+.project1-left,
+.project2-left {
   border: solid 5px #fff;
   border-radius: 5px;
   border-bottom: solid 5px #555555;

@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/project1.css" />
+    <link rel="stylesheet" href="./styles/project2.css" />
     <link rel="stylesheet" href="./styles/transitions.css" />
+    <link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/104efe6595.js"
       crossorigin="anonymous"
@@ -32,6 +34,7 @@
           CV
         </a>
 
+        <!-- Project 1 -->
         <div class="project1-left" id="project1Left">
           <h2>Arrays en JavaScript</h2>
           <br />
@@ -40,12 +43,30 @@
             mas usados en JavaScript.
           </p>
         </div>
-        <div class="image1" id="image1">
+        <div class="project1-image1" id="project1-image1">
           <img
             class="project1-first-screen"
             src="./assets/ArraysJS1.webp"
             alt="project first screen"
           />
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project2-left" id="project2Left">
+          <h2>Web Rotaract Guayana</h2>
+          <div class="project2-image1" id="project2-image1">
+            <img
+              class="project2-first-screen"
+              src="./assets/rotaract1.webp"
+              alt="project first screen"
+            />
+          </div>
+          <p>
+            Pagina Web de
+            <a href="https://es.wikipedia.org/wiki/Rotaract" target="_blank"
+              >Rotaract Guayana</a
+            >
+          </p>
         </div>
       </article>
 
@@ -128,7 +149,21 @@
               />
             </figure>
           </div>
-          <div class="item-box"></div>
+          <div class="item-box" id="project2">
+            <div class="book-info">
+              Web Rotaract Guayana <br />
+              <span>HTML5</span> <br />
+              <span>CSS3</span> <br />
+              <span>JavaScript</span>
+            </div>
+            <figure>
+              <img
+                class="img-project"
+                src="./assets/project-book.gif"
+                alt="project 1"
+              />
+            </figure>
+          </div>
           <div class="item-box"></div>
           <div class="item-box"></div>
           <div class="item-box"></div>
@@ -170,10 +205,11 @@
           </div>
         </section>
 
+        <!-- Project 1 -->
         <section class="project1-right" id="project1Right">
           <div class="explain2-container">
             <h2>¡Responsiva!</h2>
-            <div class="image2" id="image2">
+            <div class="project1-image2" id="project1-image2">
               <img
                 src="./assets/ArraysJS3.webp"
                 alt="Example-image"
@@ -185,6 +221,33 @@
             href="https://showycone.github.io/JavaScriptArrays/"
             target="_blank"
             class="link-project1"
+          >
+            Link del proyecto
+          </a>
+        </section>
+
+        <!-- Project 2 -->
+        <section class="project2-right" id="project2Right">
+          <div class="explain2-container">
+            <h2>¡De Figma a Web!</h2>
+            <div class="project2-image2" id="project2-image2">
+              <img
+                src="./assets/rotaract-in-figma.webp"
+                alt="Example-image"
+                class="project2-first-screen"
+              />
+              <i class="fa-solid fa-arrow-down arrow-project2"></i>
+              <img
+                src="./assets/rotaract2.webp"
+                alt="Example-image"
+                class="project2-first-screen"
+              />
+            </div>
+          </div>
+          <a
+            href="https://showycone.github.io/rotaract-guayana/"
+            target="_blank"
+            class="link-project2"
           >
             Link del proyecto
           </a>

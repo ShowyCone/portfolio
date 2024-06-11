@@ -1,36 +1,37 @@
-.project1-left {
-  top: 0;
+.project2-left {
+  top: 60px;
   transform: translateX(-450px);
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 1.2em;
   padding: 10px;
+  height: 80%;
 }
 
-.project1-image1 {
-  top: 50%;
-  transform: translateX(-450px);
-  justify-content: center;
-  align-items: center;
+.project2-image1 {
+  width: 100%;
 }
 
-.project1-left,
-.project1-image1 {
+.project2-left {
   transition: transform 0.5s cubic-bezier(0.56, 0.28, 0.32, 0.97);
   transition-delay: 0.5;
 
-  margin-top: 60px;
   position: absolute;
   width: calc(100% - 40px);
-  display: flex;
 }
 
-.project1-first-screen {
+.project2-first-screen {
   object-fit: cover;
-  width: 110%;
+  width: 100%;
 }
 
-.project1-right {
+.project2-right .explain2-container {
+  width: 300px;
+}
+
+.project2-right {
   transition: transform 0.5s cubic-bezier(0.56, 0.28, 0.32, 0.97);
   transition-delay: 0.5;
 
@@ -45,26 +46,21 @@
   align-items: center;
 }
 
-.project1-right div {
-  padding: 20px;
+.project2-right div {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   height: 90%;
-  width: 80%;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-.project1-image2 {
-  width: 150px;
+.project2-image2 {
+  width: 100%;
 }
 
-.project1-image2 img {
-  object-fit: cover;
-  width: 180px;
-}
-
-.link-project1 {
+.link-project2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,4 +76,8 @@
   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+}
+
+.arrow-project2 {
+  font-size: 3em;
 }
